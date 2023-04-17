@@ -1,0 +1,16 @@
+# Dotfiles
+My configuration for Arch Linux
+- GNOME
+- zsh
+- Tilix
+
+## Setup
+```
+git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
+```
+```
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+```
+```
+dotfiles checkout
+```
