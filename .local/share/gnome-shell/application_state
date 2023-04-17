@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.TextEditor.desktop" score="170" last-seen="1681742219"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="1902" last-seen="1681693123"/>
+    <application id="firefox.desktop" score="2" last-seen="1681741857"/>
+    <application id="org.gnome.tweaks.desktop" score="478" last-seen="1681297105"/>
+    <application id="org.gnome.Weather.desktop" score="2" last-seen="1681238923"/>
+    <application id="brave-browser.desktop" score="17536" last-seen="1681744144"/>
+    <application id="org.gnome.Music.desktop" score="1" last-seen="1681724716"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" score="25" last-seen="1681141333"/>
+    <application id="org.gnome.eog.desktop" score="12" last-seen="1681349861"/>
+    <application id="discord.desktop" score="360" last-seen="1681408283"/>
+    <application id="steam.desktop" score="182" last-seen="1681405906"/>
+    <application id="org.gnome.Terminal.Preferences.desktop" score="70" last-seen="1681390735"/>
+    <application id="org.gnome.Software.desktop" score="3" last-seen="1681264743"/>
+    <application id="org.gnome.font-viewer.desktop" score="39" last-seen="1681390830"/>
+    <application id="grapejuice.desktop" score="2" last-seen="1681407326"/>
+    <application id="org.gnome.Settings.desktop" score="129" last-seen="1681385474"/>
+    <application id="com.gexperts.Tilix.desktop" score="1108" last-seen="1681744151"/>
+    <application id="appimagelaunchersettings.desktop" score="1" last-seen="1681147512"/>
+    <application id="org.gnome.Terminal.desktop" score="620" last-seen="1681393643"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="775" last-seen="1681691710"/>
+    <application id="spotify.desktop" score="54" last-seen="1681297381"/>
+    <application id="org.gnome.Nautilus.desktop" score="908" last-seen="1681744151"/>
+    <application id="gnome-system-monitor-kde.desktop" score="23" last-seen="1681726181"/>
+    <application id="org.gnome.FileRoller.desktop" score="2" last-seen="1681394874"/>
+    <application id="org.gnome.Totem.desktop" score="0" last-seen="1681724734"/>
+    <application id="org.gnome.clocks.desktop" score="3" last-seen="1681238901"/>
+    <application id="mpv.desktop" score="33" last-seen="1681349854"/>
+    <application id="org.gnome.Photos.desktop" score="3390" last-seen="1681724596"/>
+  </context>
+</application-state>
