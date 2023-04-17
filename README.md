@@ -1,6 +1,10 @@
 # Dotfiles
 My configuration for Arch Linux
 - GNOME
+- GNOME extensions
+- GTK4 Theme
+- Icons
+- Cursors
 - zsh
 - Tilix
 
