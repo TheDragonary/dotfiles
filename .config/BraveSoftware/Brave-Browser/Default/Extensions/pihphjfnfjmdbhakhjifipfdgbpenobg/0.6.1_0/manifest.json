@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "DocsAfterDark Options"
+   },
+   "author": "Raymond Wang",
+   "content_scripts": [ {
+      "css": [ "default.css" ],
+      "js": [ "word.js" ],
+      "matches": [ "*://docs.google.com/document/*" ]
+   } ],
+   "description": "Modern, dark mode for Google Docs",
+   "icons": {
+      "128": "dad128.png",
+      "16": "dad16.png",
+      "48": "dad48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvdmuJxU1pZRrVZogqQM/KtwOjtbyXKh5vhao8YmnxKAtNsG42Vwx6k6G7xw3Giko1h6oQkgrjZ4F2h4tpm20Xvo4cU31iOLMd75XB3M6MLMx/VPy+WXHtrWavn3M23zwELJzcnOdPhMVvISYeFswPtYRn1rpAAFbLNtF0zME2NcA9b+lLietvr9hhxYux6ksbUCJDtgZkYC2ZSx7MJDOtze1cznQSdeSRPo6cc8S6CyPlaemHiJ8AsprFn4gQejYb3n8+uCpNYk1iqE8WBT/TG9VELxIoKBQtPm4vPzIjz34PDXbt8XBh7CoCCcTWXB9EguFpiVnZn0PgxeSTISLbQIDAQAB",
+   "manifest_version": 3,
+   "name": "DocsAfterDark",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.1",
+   "web_accessible_resources": [ {
+      "matches": [ "*://docs.google.com/*" ],
+      "resources": [ "docs.css", "/assets/checkmark.secondary.png", "/assets/revisions_sprite1.secondary.svg", "/assets/close_18px.svg", "/assets/lens.svg", "/assets/jfk_sprite186.png", "/assets/jfk_sprite186.edited.png", "assets/dimension-unhighlighted.edited.png", "assets/dimension-highlighted.edited.png", "assets/access_denied_transparent.png", "assets/access_denied_600_transparent.png", "assets/gm_add_black_24dp.png" ]
+   } ]
+}

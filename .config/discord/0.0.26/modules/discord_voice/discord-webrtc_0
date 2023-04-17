@@ -1,0 +1,401 @@
+[2023-04-13 18:45:24.141] [4853] (engine.cpp:260): Created native Engine, time: Thu Apr 13 18:45:24 2023 BST, logPath: /home/arch/.config/discord/0.0.26/modules/discord_voice/, logLevel: 2
+[2023-04-13 18:45:24.175] [4853] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-04-13 18:45:24.175] [4853] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:83): Create
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:91): CreateForTest
+[2023-04-13 18:45:24.175] [4853] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:133): CheckPlatform
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:144): current platform is Linux
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:992): PlatformAudioLayer
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2023-04-13 18:45:24.175] [4853] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2023-04-13 18:45:24.175] [4853] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2023-04-13 18:45:24.175] [4853] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2023-04-13 18:45:24.176] [4853] (audio_device_impl.cc:345): AttachAudioBuffer
+[2023-04-13 18:45:24.176] [4853] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2023-04-13 18:45:24.176] [4853] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2023-04-13 18:45:24.176] [4853] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2023-04-13 18:45:24.176] [4853] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2023-04-13 18:45:24.176] [4853] (audio_device_impl.cc:355): ActiveAudioLayer
+[2023-04-13 18:45:24.176] [4853] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-04-13 18:45:24.176] [4853] (audio_engine.cpp:491): Creating audio engine: standard
+[2023-04-13 18:45:24.176] [4853] (audio_device_impl.cc:365): Init
+[2023-04-13 18:45:36.575] [4818] (discord.cpp:636): JS console: ["Unsupported Locale","en-GB"]
+[2023-04-13 18:45:36.576] [4818] (discord.cpp:636): JS console: ["Unsupported Locale","en"]
+[2023-04-13 18:45:37.200] [4818] (discord.cpp:636): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 189005, Version Hash: cf38be216aaea8db68c3e799ffc0f37faf07dff3"]
+[2023-04-13 18:45:40.627] [4818] (discord.cpp:636): JS console: ["%c[default]","[NATIVE INFO] host 0.0.26, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2023-04-13 18:45:59.434] [4853] (audio_device_pulse_linux.cc:1625): failed to connect to PulseAudio sound server
+[2023-04-13 18:45:59.435] [4853] (audio_device_pulse_linux.cc:144): failed to initialize PulseAudio
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:374): Audio device initialization failed.
+[2023-04-13 18:45:59.435] [4853] (audio_coding.cpp:147): Using software Opus decoder
+[2023-04-13 18:45:59.435] [4853] (audio_coding.cpp:164): Using software Opus encoder
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:896): RegisterAudioCallback
+[2023-04-13 18:45:59.435] [4853] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2023-04-13 18:45:59.435] [4853] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:579): SetStereoRecording(0)
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-04-13 18:45:59.435] [4853] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:625): SetStereoPlayout(0)
+[2023-04-13 18:45:59.435] [4853] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-04-13 18:45:59.435] [4853] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-04-13 18:46:00.189] [4853] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-04-13 18:46:00.189] [4853] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2023-04-13 18:46:00.189] [4853] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2023-04-13 18:46:00.576] [4853] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-04-13 18:46:00.903] [4853] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-04-13 18:46:00.903] [4853] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:579): SetStereoRecording(0)
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-04-13 18:46:00.903] [4853] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:625): SetStereoPlayout(0)
+[2023-04-13 18:46:00.903] [4853] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-04-13 18:46:00.904] [4853] (engine.cpp:670): Engine::SetClipBufferLength(0)
+[2023-04-13 18:46:00.904] [4853] (engine.cpp:163): *** OnDevicesChanged:
+[2023-04-13 18:46:00.904] [4853] (engine.cpp:164): * audioInput:
+[2023-04-13 18:46:00.904] [4853] (engine.cpp:169): * audioOutput:
+[2023-04-13 18:46:03.905] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:03.905] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:03.906] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:06.908] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:06.909] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:06.909] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:06.932] [4818] (discord.cpp:636): JS console: ["Initializing krisp module"]
+[2023-04-13 18:46:09.911] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:09.911] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:09.912] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:12.915] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:12.915] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:12.915] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:15.918] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:15.918] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:15.919] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:18.921] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:18.922] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:18.922] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:21.924] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:21.925] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:21.925] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:24.928] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:24.928] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:24.929] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:27.932] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:27.932] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:27.932] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:30.935] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:30.936] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:30.936] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:33.938] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:33.939] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:33.939] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:36.942] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:36.942] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:36.943] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:39.945] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:39.946] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:39.946] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:42.948] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:42.948] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:42.949] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:45.951] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:45.951] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:45.952] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:48.955] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:48.955] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:48.956] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:51.958] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:51.958] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:51.959] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:54.961] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:54.962] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:54.962] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:46:57.965] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:57.966] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:46:57.966] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:00.969] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:00.970] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:00.970] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:03.973] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:03.973] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:03.973] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:06.976] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:06.976] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:06.977] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:09.978] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:09.978] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:09.978] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:12.984] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:12.984] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:12.985] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:15.988] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:15.989] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:15.990] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:18.993] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:18.993] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:18.994] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:21.997] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:21.997] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:21.998] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:24.999] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:24.999] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:24.999] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:28.002] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:28.003] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:28.003] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:31.005] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:31.005] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:31.006] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:34.008] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:34.008] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:34.008] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:37.011] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:37.012] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:37.012] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:40.014] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:40.015] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:40.015] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:43.018] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:43.018] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:43.019] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:46.021] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:46.022] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:46.022] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:49.025] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:49.026] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:49.026] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:52.029] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:52.029] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:52.030] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:55.031] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:55.032] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:55.032] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:47:58.035] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:58.036] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:47:58.036] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:01.038] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:01.039] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:01.039] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:04.041] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:04.041] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:04.042] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:07.044] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:07.045] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:07.046] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:10.048] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:10.048] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:10.049] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:13.051] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:13.052] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:13.052] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:16.055] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:16.055] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:16.056] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:19.058] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:19.060] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:19.060] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:22.061] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:22.061] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:22.062] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:25.064] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:25.065] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:25.065] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:28.068] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:28.068] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:28.069] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:31.071] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:31.071] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:31.072] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:34.075] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:34.075] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:34.076] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:37.078] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:37.078] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:37.078] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:40.081] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:40.082] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:40.082] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:43.085] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:43.085] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:43.085] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:46.088] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:46.088] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:46.088] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:49.091] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:49.092] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:49.092] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:52.094] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:52.095] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:52.095] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:55.098] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:55.098] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:55.098] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:48:58.101] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:58.101] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:48:58.102] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:01.104] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:01.105] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:01.105] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:04.108] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:04.108] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:04.109] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:07.111] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:07.111] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:07.112] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:10.114] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:10.115] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:10.115] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:13.118] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:13.118] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:13.119] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:16.121] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:16.121] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:16.122] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:19.124] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:19.125] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:19.125] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:22.128] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:22.128] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:22.129] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:25.132] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:25.132] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:25.132] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:28.134] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:28.135] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:28.135] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:31.138] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:31.138] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:31.138] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:34.141] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:34.142] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:34.142] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:37.145] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:37.145] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:37.146] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:40.148] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:40.148] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:40.148] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:43.151] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:43.151] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:43.152] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:46.154] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:46.155] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:46.155] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:49.158] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:49.158] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:49.159] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:52.161] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:52.162] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:52.162] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:55.165] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:55.166] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:55.167] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:49:58.169] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:58.170] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:49:58.170] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:01.172] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:01.172] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:01.173] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:04.174] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:04.175] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:04.175] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:07.178] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:07.178] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:07.179] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:10.181] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:10.182] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:10.182] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:13.184] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:13.185] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:13.185] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:16.188] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:16.189] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:16.189] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:19.192] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:19.193] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:19.193] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:22.195] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:22.195] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:22.196] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:25.198] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:25.198] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:25.199] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:28.201] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:28.201] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:28.202] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:31.204] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:31.205] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:31.205] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:34.208] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:34.208] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:34.208] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:37.211] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:37.211] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:37.212] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:40.214] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:40.215] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:40.215] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:43.218] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:43.218] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:43.218] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:46.221] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:46.221] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:46.222] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:49.224] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:49.225] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:49.225] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:52.228] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:52.229] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:52.229] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:55.231] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:55.232] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:55.233] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:50:58.235] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:58.236] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:50:58.236] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:01.238] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:01.239] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:01.240] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:04.241] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:04.242] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:04.242] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:07.244] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:07.246] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:07.247] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:10.248] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:10.249] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:10.249] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:13.252] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:13.253] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:13.253] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:16.254] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:16.255] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:16.255] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:19.258] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:19.259] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:19.260] [4854] (device_info_linux.cc:78): GetDeviceName
+[2023-04-13 18:51:22.261] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:22.261] [4854] (device_info_linux.cc:45): NumberOfDevices
+[2023-04-13 18:51:22.262] [4854] (device_info_linux.cc:78): GetDeviceName

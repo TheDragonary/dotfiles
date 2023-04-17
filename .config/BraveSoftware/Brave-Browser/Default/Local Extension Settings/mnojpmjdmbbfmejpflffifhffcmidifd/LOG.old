@@ -1,0 +1,42 @@
+2023/04/17-12:30:22.354 6e6 Reusing MANIFEST /home/arch/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2023/04/17-12:30:22.429 6e6 Recovering log #167
+2023/04/17-12:30:22.575 6e6 Reusing old log /home/arch/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000167.log 
+2023/04/17-12:41:34.777 6d3 Compacting 1@0 + 1@1 files
+2023/04/17-12:41:35.593 6d3 Generated table #170@0: 43 keys, 60941 bytes
+2023/04/17-12:41:35.593 6d3 Compacted 1@0 + 1@1 files => 60941 bytes
+2023/04/17-12:41:35.726 6d3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/17-12:41:35.726 6d3 Delete type=2 #166
+2023/04/17-12:41:35.726 6d3 Delete type=2 #168
+2023/04/17-13:08:52.503 6b0 Compacting 1@1 + 1@2 files
+2023/04/17-13:08:52.638 6b0 Generated table #171@1: 25 keys, 60334 bytes
+2023/04/17-13:08:52.638 6b0 Compacted 1@1 + 1@2 files => 60334 bytes
+2023/04/17-13:08:52.746 6b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/17-13:08:52.746 6b0 Delete type=2 #161
+2023/04/17-13:08:52.746 6b0 Delete type=2 #170
+2023/04/17-13:09:53.004 6b0 Level-0 table #173: started
+2023/04/17-13:09:53.170 6b0 Level-0 table #173: 275361 bytes OK
+2023/04/17-13:09:53.380 6b0 Delete type=0 #167
+2023/04/17-13:23:58.907 6d3 Compacting 1@1 + 1@2 files
+2023/04/17-13:23:59.028 6d3 Generated table #174@1: 21 keys, 59230 bytes
+2023/04/17-13:23:59.028 6d3 Compacted 1@1 + 1@2 files => 59230 bytes
+2023/04/17-13:23:59.129 6d3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/17-13:23:59.129 6d3 Delete type=2 #171
+2023/04/17-13:23:59.129 6d3 Delete type=2 #173
+2023/04/17-13:48:31.107 6b0 Level-0 table #176: started
+2023/04/17-13:48:31.176 6b0 Level-0 table #176: 282581 bytes OK
+2023/04/17-13:48:31.328 6b0 Delete type=0 #172
+2023/04/17-14:07:20.095 6b0 Compacting 1@1 + 1@2 files
+2023/04/17-14:07:20.221 6b0 Generated table #177@1: 29 keys, 62119 bytes
+2023/04/17-14:07:20.221 6b0 Compacted 1@1 + 1@2 files => 62119 bytes
+2023/04/17-14:07:20.479 6b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/17-14:07:20.480 6b0 Delete type=2 #174
+2023/04/17-14:07:20.480 6b0 Delete type=2 #176
+2023/04/17-14:41:54.889 6d3 Level-0 table #179: started
+2023/04/17-14:41:55.176 6d3 Level-0 table #179: 278286 bytes OK
+2023/04/17-14:41:55.443 6d3 Delete type=0 #175
+2023/04/17-14:54:41.906 6b0 Compacting 1@1 + 1@2 files
+2023/04/17-14:54:41.956 6b0 Generated table #180@1: 19 keys, 59356 bytes
+2023/04/17-14:54:41.956 6b0 Compacted 1@1 + 1@2 files => 59356 bytes
+2023/04/17-14:54:42.072 6b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/17-14:54:42.073 6b0 Delete type=2 #177
+2023/04/17-14:54:42.073 6b0 Delete type=2 #179

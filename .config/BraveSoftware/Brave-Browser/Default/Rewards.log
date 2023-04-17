@@ -1,0 +1,225 @@
+--------------------------------------------------------------------------------
+[10 Apr 2023, 2:20:55.4 pm:ERROR:refill_unblinded_tokens.cc(213)] Failed to get signed tokens
+--------------------------------------------------------------------------------
+[10 Apr 2023, 2:40:52.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 2:40:52.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[10 Apr 2023, 4:02:46.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[10 Apr 2023, 4:20:03.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 4:20:03.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 4:27:10.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 4:27:10.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:13:05.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:13:05.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:58:52.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:59:41.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:59:41.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:59:49.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 5:59:49.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 6:00:24.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 6:00:24.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 6:01:09.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 6:01:09.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[10 Apr 2023, 7:07:02.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 7:07:02.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 7:09:23.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 7:13:38.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 7:13:38.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[10 Apr 2023, 8:42:06.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 8:47:38.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 8:47:38.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 8:49:32.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 8:49:32.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[10 Apr 2023, 11:53:39.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 11:53:39.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 11:57:55.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 11:57:56.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[10 Apr 2023, 11:57:57.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 12:59:31.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:59:31.4 am:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 4:32:15.6 am:ERROR:issuers.cc(108)] Failed to fetch issuers
+[11 Apr 2023, 4:32:17.3 am:ERROR:issuers.cc(108)] Failed to fetch issuers
+[11 Apr 2023, 11:54:19.1 am:ERROR:issuers.cc(108)] Failed to fetch issuers
+[11 Apr 2023, 12:13:21.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:13:21.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:32:01.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:32:01.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:32:01.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:32:01.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:34:40.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 12:34:40.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 2:04:06.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:04:06.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:19:15.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:19:15.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:22:01.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:22:01.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:22:01.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:27:33.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 2:27:33.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 4:50:52.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 4:51:45.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 4:52:46.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 4:56:53.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 4:57:41.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 4:57:41.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:00:22.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:00:22.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:09:39.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:09:39.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:14.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:14.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:14.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:41.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:41.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:29:41.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:30:04.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:30:04.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 5:35:24.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:35:28.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:36:11.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:36:11.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:37:29.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:37:29.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:37:29.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:38:03.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:38:03.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:38:03.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:39:38.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:39:43.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:40:55.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:40:55.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:41:33.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:41:33.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:44:49.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:44:49.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 5:58:14.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 6:24:43.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 6:24:43.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 6:28:05.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 6:28:05.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 6:40:49.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 6:40:49.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 7:22:19.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 7:22:19.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 7:22:19.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 7:27:06.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[11 Apr 2023, 7:27:06.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[11 Apr 2023, 11:32:48.4 pm:ERROR:issuers.cc(108)] Failed to fetch issuers
+--------------------------------------------------------------------------------
+[12 Apr 2023, 11:16:20.6 am:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[12 Apr 2023, 2:39:30.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[12 Apr 2023, 2:39:30.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[12 Apr 2023, 2:59:09.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[12 Apr 2023, 2:59:09.8 pm:ERROR:publisher.cc(729)] Publisher info not found
+[12 Apr 2023, 3:42:48.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[12 Apr 2023, 3:42:48.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 1:03:25.9 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:03:25.9 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:13:30.5 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:13:30.5 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:21:04.5 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:21:04.6 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:25:29.2 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:25:29.2 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:25:31.1 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:30:34.1 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:30:34.2 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:30:34.2 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:31:09.6 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:31:10.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 1:31:12.8 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:16:16.8 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:16:36.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:16:36.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:17:56.2 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:20:43.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:20:43.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:21:10.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:21:16.1 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:21:16.1 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:21:16.1 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:22:09.6 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:25:10.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:25:10.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:25:12.4 am:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 2:53:53.7 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:53:56.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:54:27.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:54:42.9 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:58:13.5 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:21:26.8 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:25:39.5 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:25:43.7 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:25:43.7 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:27:30.0 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:30:11.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:30:11.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:30:11.3 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 10:51:34.4 am:ERROR:issuers.cc(108)] Failed to fetch issuers
+[13 Apr 2023, 11:25:35.0 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 11:25:35.0 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 11:56:17.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 11:56:17.5 am:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 12:46:09.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 12:47:47.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 12:47:47.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 2:09:42.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 2:23:35.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:23:35.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:40:29.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[13 Apr 2023, 2:48:59.9 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:49:00.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:49:00.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:49:00.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:51:22.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 2:51:22.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:02:14.4 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:06:01.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[13 Apr 2023, 3:06:01.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Apr 2023, 10:41:45.4 am:ERROR:issuers.cc(108)] Failed to fetch issuers
+--------------------------------------------------------------------------------
+[17 Apr 2023, 10:58:24.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 10:58:24.4 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 10:59:09.9 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 10:59:09.9 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 11:49:42.7 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 11:49:42.8 am:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:05:09.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:05:09.1 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:05:12.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:06:34.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:06:34.7 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:07:33.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:07:33.5 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:07:53.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 12:07:53.6 pm:ERROR:publisher.cc(729)] Publisher info not found
+--------------------------------------------------------------------------------
+[17 Apr 2023, 1:17:30.0 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 1:17:30.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 1:25:51.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 1:25:51.3 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 1:27:01.2 pm:ERROR:publisher.cc(729)] Publisher info not found
+[17 Apr 2023, 1:27:01.2 pm:ERROR:publisher.cc(729)] Publisher info not found
