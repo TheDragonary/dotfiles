@@ -10,7 +10,10 @@ My configuration for Arch Linux
 
 ## Install zsh
 ```
-sudo pacman -S zsh zsh-syntax-highlighting zsh-autosuggestions && sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+sudo pacman -S zsh 
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
 ## Setup repository
@@ -20,5 +23,5 @@ git clone --bare https://github.com/TheDragonary/dotfiles.git $HOME/.dotfiles &&
 
 ## Complete configuration setup
 ```
-dotfiles checkout
+dotfiles checkout -f
 ```
