@@ -11,6 +11,7 @@
 .config/dleyna-server-service.conf
 .config/evolution/
 .config/goa-1.0/
+.config/gtk-3.0/
 .config/mimeapps.list
 .config/nautilus/
 .config/neofetch/
