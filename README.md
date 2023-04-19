@@ -1,19 +1,23 @@
 # Dotfiles
 My configuration for Arch Linux
 - GNOME
-- GNOME extensions
 - GTK4 Theme
 - Icons
 - Cursors
 - zsh
-- Tilix
+- kitty
 
 ## Install zsh
 ```
 sudo pacman -S zsh 
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+### Install zsh4humans
+```
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
 ```
 
 ## Setup repository
