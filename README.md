@@ -1,9 +1,6 @@
 # Dotfiles
 My configuration for Arch Linux
-- GNOME
-- GTK4 Theme
-- Icons
-- Cursors
+- KDE
 - zsh
 - kitty
 
