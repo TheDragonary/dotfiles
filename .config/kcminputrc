@@ -1,0 +1,11 @@
+[Keyboard]
+NumLock=0
+RepeatDelay=300
+RepeatRate=30
+
+[Libinput][2][7][SynPS/2 Synaptics TouchPad]
+NaturalScroll=true
+TapToClick=true
+
+[Mouse]
+cursorTheme=Bibata-Modern-Classic

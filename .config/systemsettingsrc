@@ -1,0 +1,11 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/eef56742ec0dd6abd4b78f6e582f1d98.jpg,file:$HOME/Pictures/eef56742ec0dd6abd4b78f6e582f1d98.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+iconViewIconSize=64
+
+[MainWindow]
+1366x768 screen: Height=695
+1366x768 screen: Width=1020
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAK3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

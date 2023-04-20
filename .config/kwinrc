@@ -1,0 +1,11 @@
+[NightColor]
+Active=true
+
+[Windows]
+ElectricBorderCooldown=150
+ElectricBorderDelay=100
+RollOverDesktops=true
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
