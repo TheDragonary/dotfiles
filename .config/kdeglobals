@@ -133,6 +133,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
+ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrains Mono,10,-1,5,50,0,0,0,0,0

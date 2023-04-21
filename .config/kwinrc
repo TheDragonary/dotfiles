@@ -1,10 +1,24 @@
+[Desktops]
+Id_1=f3efd8a9-5759-48c2-9aad-96cb92274932
+Number=1
+Rows=1
+
 [NightColor]
 Active=true
+
+[Tiling]
+padding=4
+
+[Tiling][6dbfdb1c-0d23-5013-9b2c-a432872102bb]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 ElectricBorderCooldown=150
 ElectricBorderDelay=100
 RollOverDesktops=true
+
+[Xwayland]
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=

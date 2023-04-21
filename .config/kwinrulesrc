@@ -1,3 +1,10 @@
+[1]
+Description=Kitty
+noborder=true
+noborderrule=2
+wmclass=kitty
+wmclassmatch=1
+
 [81dc5213-5714-4736-9d1e-33e460ed9283]
 Description=Kitty
 noborder=true
@@ -7,4 +14,4 @@ wmclassmatch=1
 
 [General]
 count=1
-rules=81dc5213-5714-4736-9d1e-33e460ed9283
+rules=1
