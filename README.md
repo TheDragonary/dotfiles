@@ -5,6 +5,18 @@ My configuration for Arch Linux
 - zsh
 - kitty
 
+## Using the install script
+Using the script "install.sh" will automatically do all of the below for you + installs all of the apps and packages that I use. Feel free to edit it for yourself to select which things you want to install or not.
+```
+wget https://raw.githubusercontent.com/TheDragonary/dotfiles/master/install.sh
+chmod +x install.sh
+./install.sh
+```
+Or you can run all of the commands at once:
+```
+wget https://raw.githubusercontent.com/TheDragonary/dotfiles/master/install.sh && chmod +x install.sh && ./install.sh
+```
+
 ## Install zsh
 ```
 sudo pacman -S zsh 
