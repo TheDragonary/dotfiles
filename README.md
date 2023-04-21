@@ -1,9 +1,11 @@
 # Dotfiles
 My configuration for Arch Linux
 - KDE
-- Fonts
 - zsh
 - kitty
+- Icons
+- Cursors
+- Fonts
 
 ## Using the install script
 Using the script "install.sh" will automatically do all of the below for you + installs all of the apps and packages that I use. Feel free to edit it for yourself to select which things you want to install or not.
