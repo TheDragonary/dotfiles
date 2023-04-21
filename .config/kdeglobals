@@ -142,6 +142,7 @@ Theme=Papirus
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 SingleClick=false
 
 [KFileDialog Settings]
@@ -163,6 +164,9 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=138
 View Style=Simple
+
+[PreviewSettings]
+MaximumRemoteSize=10485760000
 
 [WM]
 activeBackground=49,54,59
