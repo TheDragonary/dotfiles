@@ -37,6 +37,7 @@ git clone --bare https://github.com/TheDragonary/dotfiles.git $HOME/.dotfiles &&
 ```
 
 ## Complete configuration setup
+This pushes all of the dotfiles to the Home directory and overwrites any existing files
 ```
 dotfiles checkout -f
 ```
