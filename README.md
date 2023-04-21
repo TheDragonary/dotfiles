@@ -8,7 +8,7 @@ My configuration for Arch Linux
 - Fonts
 
 ## Using the install script
-Using the script "install.sh" will automatically do all of the below for you + installs all of the apps and packages that I use. Feel free to edit it for yourself to select which things you want to install or not.
+Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not.
 ```
 wget https://raw.githubusercontent.com/TheDragonary/dotfiles/master/install.sh
 chmod +x install.sh
