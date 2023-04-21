@@ -9,6 +9,11 @@ My configuration for Arch Linux
 ```
 sudo pacman -S zsh 
 ```
+Change the shell to zsh
+```
+chsh
+/bin/zsh
+```
 ### Install zsh4humans
 ```
 if command -v curl >/dev/null 2>&1; then
