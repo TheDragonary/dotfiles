@@ -27,3 +27,14 @@ PreloadWeight=55
 
 [Containments][8][Applets][22][Configuration]
 PreloadWeight=60
+
+[Containments][9][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][9][Wallpaper][org.kde.image][General]
+Image=/home/arch/Pictures/eef56742ec0dd6abd4b78f6e582f1d98.jpg
+SlidePaths=/usr/share/wallpapers/
+
+[ScreenMapping]
+screenMapping=desktop:/steam.desktop,0,f7dc5644-7d85-4c19-8477-67c5a630d3c6
