@@ -25,7 +25,7 @@ else
   sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
 fi
 
-echo "Cloning dotfiles repo"
+echo "Cloning dotfiles bare repo"
 git clone --bare https://github.com/TheDragonary/dotfiles.git $HOME/.dotfiles && alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 echo "Pushing dotfiles"
