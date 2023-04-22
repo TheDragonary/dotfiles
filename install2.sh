@@ -17,4 +17,5 @@ git clone --bare https://github.com/TheDragonary/dotfiles.git $HOME/.dotfiles &&
 echo "Pushing dotfiles..."
 dotfiles checkout -f
 
-
+echo "Setting wallpaper..."
+plasma-apply-wallpaperimage ~/Pictures/r34skyline.jpg
