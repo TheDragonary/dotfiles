@@ -1,6 +1,10 @@
 [Daemon]
 Timeout=30
 
+[Greeter][LnF][General]
+showMediaControls=false
+
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/home/arch/Pictures/eef56742ec0dd6abd4b78f6e582f1d98.jpg
-PreviewImage=/home/arch/Pictures/eef56742ec0dd6abd4b78f6e582f1d98.jpg
+Image=/home/arch/Pictures/r34skyline.jpg
+PreviewImage=/home/arch/Pictures/r34skyline.jpg
+SlidePaths=/usr/share/wallpapers/
