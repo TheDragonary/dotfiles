@@ -73,16 +73,16 @@ SystrayContainmentId=16
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][10][Applets][27]
+[Containments][10][Applets][32]
 immutability=1
-plugin=org.kde.plasma.showdesktop
+plugin=org.kde.plasma.minimizeall
 
 [Containments][10][ConfigDialog]
 DialogHeight=84
 DialogWidth=1366
 
 [Containments][10][General]
-AppletOrder=11;12;13;14;15;26;27
+AppletOrder=11;12;13;14;15;26;32
 
 [Containments][16]
 activityId=
@@ -182,6 +182,10 @@ wallpaperplugin=org.kde.image
 [Containments][9][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][9][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=282
 
 [Containments][9][Wallpaper][org.kde.image][General]
 Image=file:///home/arch/Pictures/r34skyline.jpg
