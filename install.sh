@@ -19,14 +19,29 @@ yay -S --noconfirm cava cmatrix cbonsai neo-matrix-git ani-cli
 echo "Installing GStreamer codecs..."
 sudo pacman -S --noconfirm gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly && yay -S --noconfirm gst-plugin-libde265 gst-plugins-openh264
 
+echo "Installing Spotify..."
+yay -S --noconfirm spotify
+echo "Patching Spotify..."
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh) -ce
+
+echo "Cloning dotfiles bare repo..."
+git clone --bare https://github.com/TheDragonary/dotfiles.git $HOME/.dotfiles && alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+echo "Pushing dotfiles..."
+dotfiles checkout -f
+
+echo "Setting wallpaper..."
+plasma-apply-wallpaperimage ~/Pictures/r34skyline.jpg
+
 echo "Changing shell to zsh..."
 sudo chsh -s /bin/zsh $USER
 echo $SHELL
 
-echo "Part 1 of the installation complete!"
-echo "Your system will now reboot. Run install2.sh after logging back in to continue with the installation."
+echo "Installation complete!"
+echo "Run install2.sh after rebooting to complete zsh setup"
 sleep 1
-echo "Rebooting in..."
+echo "Your system will now reboot in..."
+sleep 1
 for i in {1..5}
 do
   echo $((6-i))
