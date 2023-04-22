@@ -141,6 +141,13 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][16][Applets][31]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][16][Applets][31][Configuration]
+PreloadWeight=0
+
 [Containments][16][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.nightcolorcontrol
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.nightcolorcontrol

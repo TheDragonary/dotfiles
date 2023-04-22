@@ -1,5 +1,10 @@
 #!/bin/bash
-echo "Installing yay"
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root, use sudo "$0" instead" 1>&2
+   exit 1
+fi
+
+echo "Installing yay..."
 sudo pacman -S --noconfirm --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg --noconfirm -si
 
 echo "Installing apps and packages..."
@@ -19,16 +24,12 @@ sudo chsh -s /bin/zsh $USER
 echo $SHELL
 
 echo "Part 1 of the installation complete!"
-echo "Run install2.sh after rebooting"
+echo "Your system will now reboot. Run install2.sh after logging back in to continue with the installation."
 sleep 1
-echo "Rebooting in 5..."
-sleep 1
-echo "4"
-sleep 1
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
+echo "Rebooting in..."
+for i in {1..5}
+do
+  echo $((6-i))
+  sleep 1
+done
 reboot
