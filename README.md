@@ -6,16 +6,17 @@ My configuration for Arch Linux
 - Icons
 - Cursors
 - Fonts
+- Wallpaper
 
 ## Using the install script
-Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not. There are 2 parts of the install script. The first one should be run after booting into the new system with the KDE desktop.
+Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not. There are 2 parts of the install script. The first one should be run after booting into the new system with the KDE desktop. This will do basically everything for you.
 (Make sure to run the scripts as sudo so you don't have to input your password multiple times!)
 ```sh
 wget https://raw.githubusercontent.com/TheDragonary/dotfiles/master/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
-The second script should be run after the first script is complete and the computer has rebooted.
+The second script should be run after the first script is complete and the computer has rebooted. This will setup zsh for you.
 ```sh
 wget https://raw.githubusercontent.com/TheDragonary/dotfiles/master/install2.sh
 chmod +x install2.sh
