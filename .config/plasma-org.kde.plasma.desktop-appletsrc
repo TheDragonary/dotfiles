@@ -50,6 +50,10 @@ plugin=org.kde.plasma.pager
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][10][Applets][13][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][10][Applets][13][Configuration][General]
 launchers=applications:systemsettings.desktop,preferred://filemanager,applications:kitty.desktop,preferred://browser,applications:spotify.desktop
 
@@ -72,6 +76,10 @@ plugin=org.kde.plasma.digitalclock
 [Containments][10][Applets][27]
 immutability=1
 plugin=org.kde.plasma.showdesktop
+
+[Containments][10][ConfigDialog]
+DialogHeight=84
+DialogWidth=1366
 
 [Containments][10][General]
 AppletOrder=11;12;13;14;15;26;27
