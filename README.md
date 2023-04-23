@@ -1,12 +1,15 @@
 # Dotfiles
 My configuration for Arch Linux
 - KDE
+- Kvantum
+- Latte Dock
 - zsh
 - kitty
 - Icons
 - Cursors
 - Fonts
 - Wallpaper
+- Widgets
 
 ## Using the install script
 Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not. There are 2 parts of the install script. The first one should be run after booting into the new system with the KDE desktop. This will do basically everything for you.
