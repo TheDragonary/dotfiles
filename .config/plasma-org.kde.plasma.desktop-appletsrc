@@ -148,19 +148,6 @@ highPrioritySensorIds=["disk/.*/usedPercent"]
 lowPrioritySensorIds=["disk/all/total"]
 totalSensors=["disk/all/usedPercent"]
 
-[Containments][1][Applets][38]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-transient=true
-
-[Containments][1][Applets][39]
-immutability=1
-plugin=org.kde.plasma.volume
-transient=true
-
-[Containments][1][Applets][39][Configuration][General]
-migrated=true
-
 [Containments][1][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
