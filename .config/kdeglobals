@@ -99,8 +99,7 @@ DirSelectDialog Size=842,591
 History Items[$e]=file:$HOME/Downloads/Fluent-Dark,file:$HOME/Downloads/Layan,file:$HOME/Pictures/Screenshots
 
 [General]
-ColorScheme=AritimDark
-ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
+ColorSchemeHash=9576ef87a0de1931c50aeb1831060260aa545ee6
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrains Mono,10,-1,5,50,0,0,0,0,0
