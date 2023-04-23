@@ -7,8 +7,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1366x768=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;Applet-31:1152,240,208,256,0;
-ItemGeometriesHorizontal=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;Applet-31:1152,240,208,256,0;
+ItemGeometries-1366x768=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;Applet-33:1152,208,208,224,0;
+ItemGeometriesHorizontal=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;Applet-33:1152,208,208,224,0;
 activityId=f7dc5644-7d85-4c19-8477-67c5a630d3c6
 formfactor=0
 immutability=1
@@ -20,6 +20,18 @@ wallpaperplugin=org.kde.image
 [Containments][1][Applets][23]
 immutability=1
 plugin=com.github.prayag2.modernclock
+
+[Containments][1][Applets][23][Configuration]
+UserBackgroundHints=
+
+[Containments][1][Applets][23][Configuration][Appearance]
+date_font_size=18
+day_letter_spacing=16
+time_font_size=18
+
+[Containments][1][Applets][23][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][1][Applets][24]
 immutability=1
@@ -147,6 +159,10 @@ disk/all/usedPercent=82,120,43
 highPrioritySensorIds=["disk/.*/usedPercent"]
 lowPrioritySensorIds=["disk/all/total"]
 totalSensors=["disk/all/usedPercent"]
+
+[Containments][1][Applets][41]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
 
 [Containments][1][ConfigDialog]
 DialogHeight=540
