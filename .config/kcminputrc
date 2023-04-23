@@ -5,6 +5,8 @@ RepeatRate=30
 
 [Libinput][2][7][SynPS/2 Synaptics TouchPad]
 NaturalScroll=true
+PointerAcceleration=0.200
+ScrollFactor=1
 TapToClick=true
 
 [Mouse]

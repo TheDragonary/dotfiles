@@ -1,7 +1,13 @@
+[$Version]
+update_info=bismuth_new_logger.upd:bismuth-new-logger
+
 [Desktops]
 Id_1=f3efd8a9-5759-48c2-9aad-96cb92274932
 Number=1
 Rows=1
+
+[ModifierOnlyShortcuts]
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [NightColor]
 Active=true
@@ -21,5 +27,9 @@ RollOverDesktops=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=NoSides
+BorderSizeAuto=false
 ButtonsOnLeft=
 ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Aritim-Dark

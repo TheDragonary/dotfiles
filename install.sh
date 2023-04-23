@@ -8,16 +8,16 @@ echo "Installing yay..."
 sudo pacman -S --noconfirm --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg --noconfirm -si
 
 echo "Installing apps and packages..."
-sudo pacman -S --noconfirm firefox neofetch git broadcom-wl plymouth kio-gdrive unzip zip discord steam kitty zsh vi htop vim qbittorrent flameshot xdg-desktop-portal ffmpeg ffmpegthumbs mpv gwenview
+sudo pacman -S --noconfirm --needed firefox neofetch git broadcom-wl plymouth kio-gdrive unzip zip discord steam kitty zsh vi htop vim qbittorrent flameshot xdg-desktop-portal ffmpeg ffmpegthumbs mpv gwenview
 
 echo "Installing fonts..."
-sudo pacman -S --noconfirm noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono ttf-fira-code ttf-liberation ttf-roboto ttf-ubuntu-font-family && yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
+sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono ttf-fira-code ttf-liberation ttf-roboto ttf-ubuntu-font-family && yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
 
 echo "Installing AUR packages..."
-yay -S --noconfirm cava cmatrix cbonsai neo-matrix-git ani-cli
+yay -S --noconfirm cava cmatrix cbonsai neo-matrix-git ani-cli kvantum-gt5-git kvantum-gt6-git
 
 echo "Installing GStreamer codecs..."
-sudo pacman -S --noconfirm gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly && yay -S --noconfirm gst-plugin-libde265 gst-plugins-openh264
+sudo pacman -S --noconfirm --needed gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly && yay -S --noconfirm gst-plugin-libde265 gst-plugins-openh264
 
 echo "Installing Spotify..."
 yay -S --noconfirm spotify
@@ -32,6 +32,10 @@ dotfiles checkout -f
 
 echo "Setting wallpaper..."
 plasma-apply-wallpaperimage ~/Pictures/r34skyline.jpg
+
+echo "Installing Latte Dock"
+git clone https://github.com/KDE/latte-dock.git && cd latte-dock
+sudo pacman -S --noconfirm --needed cmake extra-cmake-modules python plasma-framework plasma-desktop plasma-wayland-protocols
 
 echo "Changing shell to zsh..."
 sudo chsh -s /bin/zsh $USER

@@ -1,3 +1,6 @@
+[$Version]
+update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
+
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-378b045c-1f7e-4893-944a-cffc5dd9d1e5=none,none,Switch to activity "Default"
@@ -7,14 +10,52 @@ switch-to-activity-f7dc5644-7d85-4c19-8477-67c5a630d3c6=none,none,Switch to acti
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[bismuth]
+_k_friendly_name=Window Tiling
+decrease_master_size=none,,Decrease Master Area Size
+decrease_master_win_count=none,Meta+[,Decrease Master Area Window Count
+decrease_window_height=none,Meta+Ctrl+K,Decrease Window Height
+decrease_window_width=none,Meta+Ctrl+H,Decrease Window Width
+focus_bottom_window=none,Meta+J,Focus Bottom Window
+focus_left_window=none,Meta+H,Focus Left Window
+focus_next_window=none,,Focus Next Window
+focus_prev_window=none,,Focus Previous Window
+focus_right_window=none,Meta+L,Focus Right Window
+focus_upper_window=none,Meta+K,Focus Upper Window
+increase_master_size=none,,Increase Master Area Size
+increase_master_win_count=none,Meta+],Increase Master Area Window Count
+increase_window_height=none,Meta+Ctrl+J,Increase Window Height
+increase_window_width=none,Meta+Ctrl+L,Increase Window Width
+move_window_to_bottom_pos=none,Meta+Shift+J,Move Window Down
+move_window_to_left_pos=none,Meta+Shift+H,Move Window Left
+move_window_to_next_pos=none,,Move Window to the Next Position
+move_window_to_prev_pos=none,,Move Window to the Previous Position
+move_window_to_right_pos=none,Meta+Shift+L,Move Window Right
+move_window_to_upper_pos=none,Meta+Shift+K,Move Window Up
+next_layout=none,Meta+\\\\,Switch to the Next Layout
+prev_layout=none,Meta+|,Switch to the Previous Layout
+push_window_to_master=none,Meta+Return,Push Active Window to Master Area
+rotate=none,Meta+R,Rotate
+rotate_part=none,Meta+Shift+R,Rotate Part
+rotate_reverse=none,,Rotate (Reverse)
+toggle_float_layout=none,Meta+Shift+F,Toggle Floating Layout
+toggle_monocle_layout=none,Meta+M,Toggle Monocle Layout
+toggle_quarter_layout=none,,Toggle Quarter Layout
+toggle_spiral_layout=none,,Toggle Spiral Layout
+toggle_spread_layout=none,,Toggle Spread Layout
+toggle_stair_layout=none,,Toggle Stair Layout
+toggle_three_column_layout=none,,Toggle Three Column Layout
+toggle_tile_layout=none,Meta+T,Toggle Tile Layout
+toggle_window_floating=none,Meta+F,Toggle Active Window Floating
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
 
 [kcm_touchpad]
-Disable Touchpad=Touchpad Off,Touchpad Off,
-Enable Touchpad=Touchpad On,Touchpad On,
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,
+Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
+Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]
@@ -205,6 +246,59 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[lattedock]
+_k_friendly_name=Latte Dock
+activate entry 1=none,Meta+1,Activate Entry 1
+activate entry 10=none,Meta+0,Activate Entry 10
+activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
+activate entry 12=Meta+X,Meta+X,Activate Entry 12
+activate entry 13=Meta+C,Meta+C,Activate Entry 13
+activate entry 14=none,Meta+V,Activate Entry 14
+activate entry 15=Meta+B,Meta+B,Activate Entry 15
+activate entry 16=Meta+N,Meta+N,Activate Entry 16
+activate entry 17=Meta+M,Meta+M,Activate Entry 17
+activate entry 18=Meta+\\,,Meta+\\,,Activate Entry 18
+activate entry 19=none,Meta+.,Activate Entry 19
+activate entry 2=none,Meta+2,Activate Entry 2
+activate entry 3=none,Meta+3,Activate Entry 3
+activate entry 4=none,Meta+4,Activate Entry 4
+activate entry 5=none,Meta+5,Activate Entry 5
+activate entry 6=none,Meta+6,Activate Entry 6
+activate entry 7=none,Meta+7,Activate Entry 7
+activate entry 8=none,Meta+8,Activate Entry 8
+activate entry 9=none,Meta+9,Activate Entry 9
+activate widget 277=Alt+F1,none,Activate Application Launcher Widget
+clear-history=none,,Clear Clipboard History
+clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
+cycleNextAction=none,,Next History Item
+cyclePrevAction=none,,Previous History Item
+edit_clipboard=none,,Edit Contents…
+new instance for entry 1=Meta+Ctrl+1,Meta+Ctrl+1,New Instance for Entry 1
+new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
+new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
+new instance for entry 12=none,Meta+Ctrl+X,New Instance for Entry 12
+new instance for entry 13=Meta+Ctrl+C,Meta+Ctrl+C,New Instance for Entry 13
+new instance for entry 14=Meta+Ctrl+V,Meta+Ctrl+V,New Instance for Entry 14
+new instance for entry 15=Meta+Ctrl+B,Meta+Ctrl+B,New Instance for Entry 15
+new instance for entry 16=Meta+Ctrl+N,Meta+Ctrl+N,New Instance for Entry 16
+new instance for entry 17=Meta+Ctrl+M,Meta+Ctrl+M,New Instance for Entry 17
+new instance for entry 18=Meta+Ctrl+\\,,Meta+Ctrl+\\,,New Instance for Entry 18
+new instance for entry 19=Meta+Ctrl+.,Meta+Ctrl+.,New Instance for Entry 19
+new instance for entry 2=Meta+Ctrl+2,Meta+Ctrl+2,New Instance for Entry 2
+new instance for entry 3=Meta+Ctrl+3,Meta+Ctrl+3,New Instance for Entry 3
+new instance for entry 4=Meta+Ctrl+4,Meta+Ctrl+4,New Instance for Entry 4
+new instance for entry 5=Meta+Ctrl+5,Meta+Ctrl+5,New Instance for Entry 5
+new instance for entry 6=Meta+Ctrl+6,Meta+Ctrl+6,New Instance for Entry 6
+new instance for entry 7=Meta+Ctrl+7,Meta+Ctrl+7,New Instance for Entry 7
+new instance for entry 8=Meta+Ctrl+8,Meta+Ctrl+8,New Instance for Entry 8
+new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
+repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+show latte global settings=none,,Show Latte Global Settings
+show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
+show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
+show-barcode=none,,Show Barcode…
+show-on-mouse-pos=none,Meta+V,Show Items at Mouse Position
+
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,,Media volume down
@@ -263,8 +357,10 @@ activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 11=none,none,Activate Application Launcher Widget
 activate widget 25=none,none,Activate Activity Pager Widget
-activate widget 3=Alt+F1,none,Activate Application Launcher Widget
-activate widget 32=,none,Activate Minimise All Windows Widget
+activate widget 3=,none,Activate Application Launcher Widget
+activate widget 32=none,none,Activate Minimise All Windows Widget
+activate widget 42=,none,Activate Application Launcher Widget
+activate widget 62=,none,Activate Latte Tasks Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
