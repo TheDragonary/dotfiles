@@ -7,8 +7,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1366x768=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;Applet-33:1152,208,208,224,0;
-ItemGeometriesHorizontal=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;Applet-33:1152,208,208,224,0;
+ItemGeometries-1366x768=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-33:1152,208,208,192,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;
+ItemGeometriesHorizontal=Applet-41:0,0,336,256,0;Applet-28:0,256,208,288,0;Applet-33:1152,208,208,192,0;Applet-30:1152,0,208,208,0;Applet-23:480,272,464,208,0;Applet-31:1152,400,208,256,0;
 activityId=f7dc5644-7d85-4c19-8477-67c5a630d3c6
 formfactor=0
 immutability=1
@@ -149,6 +149,10 @@ CurrentPreset=org.kde.plasma.systemmonitor
 chartFace=org.kde.ksysguard.horizontalbars
 title=Disk Usage
 
+[Containments][1][Applets][33][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][1][Applets][33][Configuration][SensorColors]
 disk/.*/usedPercent=43,82,120
 disk/2a1a588f-0e27-4129-a94e-11bbbaae1523/usedPercent=120,43,82
@@ -156,7 +160,7 @@ disk/489e9e22-fd60-48bc-9e3b-d196c6e503b1/usedPercent=43,82,120
 disk/all/usedPercent=82,120,43
 
 [Containments][1][Applets][33][Configuration][Sensors]
-highPrioritySensorIds=["disk/.*/usedPercent"]
+highPrioritySensorIds=["disk/489e9e22-fd60-48bc-9e3b-d196c6e503b1/usedPercent","disk/2a1a588f-0e27-4129-a94e-11bbbaae1523/usedPercent"]
 lowPrioritySensorIds=["disk/all/total"]
 totalSensors=["disk/all/usedPercent"]
 
