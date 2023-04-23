@@ -7,8 +7,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1366x768=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-31:1152,240,208,256,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;
-ItemGeometriesHorizontal=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-31:1152,240,208,256,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;
+ItemGeometries-1366x768=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;Applet-31:1152,240,208,256,0;
+ItemGeometriesHorizontal=Applet-30:0,16,208,208,0;Applet-28:0,224,208,288,0;Applet-23:496,288,416,160,0;Applet-33:1152,16,208,224,0;Applet-31:1152,240,208,256,0;
 activityId=f7dc5644-7d85-4c19-8477-67c5a630d3c6
 formfactor=0
 immutability=1
@@ -147,6 +147,19 @@ disk/all/usedPercent=82,120,43
 highPrioritySensorIds=["disk/.*/usedPercent"]
 lowPrioritySensorIds=["disk/all/total"]
 totalSensors=["disk/all/usedPercent"]
+
+[Containments][1][Applets][38]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+transient=true
+
+[Containments][1][Applets][39]
+immutability=1
+plugin=org.kde.plasma.volume
+transient=true
+
+[Containments][1][Applets][39][Configuration][General]
+migrated=true
 
 [Containments][1][ConfigDialog]
 DialogHeight=540
