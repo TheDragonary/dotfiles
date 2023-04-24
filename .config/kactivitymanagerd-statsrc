@@ -4,6 +4,12 @@ ordering=preferred://browser,applications:spotify.desktop,applications:steam.des
 [Favorites-org.kde.plasma.kickoff.favorites.instance-11-global]
 ordering=preferred://browser,applications:spotify.desktop,applications:steam.desktop,applications:discord.desktop,applications:kitty.desktop,applications:org.kde.kate.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.discover.desktop
 
+[Favorites-org.kde.plasma.kickoff.favorites.instance-277-f7dc5644-7d85-4c19-8477-67c5a630d3c6]
+ordering=preferred://browser,applications:spotify.desktop,applications:steam.desktop,applications:discord.desktop,applications:kitty.desktop,applications:org.kde.kate.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,applications:org.kde.plasma-systemmonitor.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-277-global]
+ordering=preferred://browser,applications:spotify.desktop,applications:steam.desktop,applications:discord.desktop,applications:kitty.desktop,applications:org.kde.kate.desktop,applications:org.qbittorrent.qBittorrent.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,applications:org.kde.plasma-systemmonitor.desktop
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-f7dc5644-7d85-4c19-8477-67c5a630d3c6]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop
 
