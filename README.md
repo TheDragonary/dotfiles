@@ -10,6 +10,7 @@ My configuration for Arch Linux
 - Cursors: Bibata Modern Classic
 - Fonts: Noto Sans, JetBrains Mono for terminal
 - Widgets: Modern Clock, Better Inline Clock (for panel), Media Player, Total CPU Use, Memory Usage
+- Wallpapers
 
 ## Using the install script (NOT FULLY TESTED)
 Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not. There are 2 parts of the install script. The first one should be run after booting into the new system with the KDE desktop. This will do basically everything for you.
