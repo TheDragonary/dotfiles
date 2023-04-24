@@ -1,17 +1,17 @@
 # Dotfiles
 My configuration for Arch Linux
-- KDE
-- Kvantum
-- Latte Dock
-- zsh
-- kitty
-- Icons
-- Cursors
-- Fonts
-- Wallpaper
-- Widgets
+- DE: KDE Plasma
+- Shell: zsh
+- Terminal: kitty
+- Theme: Arch-round (Aritim-Dark for Colours and Window Decorations)
+- Kvantum Theme: Fluent Dark
+- Latte Dock: xmobar float
+- Icons: Papirus
+- Cursors: Bibata Modern Classic
+- Fonts: Noto Sans, JetBrains Mono for terminal
+- Widgets: Modern Clock, Better Inline Clock (for panel), Media Player, Total CPU Use, Memory Usage
 
-## Using the install script
+## Using the install script (NOT FULLY TESTED)
 Using the script "install.sh" will automatically do all of the below for you. This script is mainly for my personal use since it installs all of the apps and packages that I use but feel free to edit it for yourself to select which things you want to install or not. There are 2 parts of the install script. The first one should be run after booting into the new system with the KDE desktop. This will do basically everything for you.
 (Make sure to run the scripts as sudo so you don't have to input your password multiple times!)
 ```sh
