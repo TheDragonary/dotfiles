@@ -108,3 +108,4 @@ setopt no_auto_menu  # require an extra TAB press to open the completion menu
 alias dotfiles='/usr/bin/git --git-dir=/home/arch/.dotfiles/ --work-tree=/home/arch'
 
 neofetch
+
