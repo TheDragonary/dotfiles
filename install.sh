@@ -8,7 +8,7 @@ echo "Installing yay..."
 sudo pacman -S --noconfirm --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg --noconfirm -si
 
 echo "Installing apps and packages..."
-sudo pacman -S --noconfirm --needed firefox neofetch git broadcom-wl plymouth kio-gdrive unzip zip discord steam kitty zsh vi htop vim qbittorrent flameshot xdg-desktop-portal ffmpeg ffmpegthumbs mpv gwenview
+sudo pacman -S --noconfirm --needed firefox neofetch git broadcom-wl plymouth kio-gdrive unzip zip discord steam kitty zsh vi htop vim qbittorrent flameshot xdg-desktop-portal ffmpeg ffmpegthumbs mpv gwenview ntfs-3g
 
 echo "Installing fonts..."
 sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono ttf-fira-code ttf-liberation ttf-roboto ttf-ubuntu-font-family && yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
